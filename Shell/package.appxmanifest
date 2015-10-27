@@ -34,8 +34,8 @@
         <uap:Rule Match="https://my.showbie.com/" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements
-        DisplayName="Shell"
-        Description="Shell"
+        DisplayName="Showbie"
+        Description="Showbie"
         BackgroundColor="transparent"
         Square150x150Logo="images\Square150x150Logo.png"
         Square44x44Logo="images\Square44x44Logo.png">
