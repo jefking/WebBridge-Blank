@@ -13,8 +13,8 @@
   <mp:PhoneIdentity PhoneProductId="f9834702-d315-4de9-8c57-b05d37a6b445" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Shell</DisplayName>
-    <PublisherDisplayName>NAME</PublisherDisplayName>
+    <DisplayName>Jef King</DisplayName>
+    <PublisherDisplayName>Jef King</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
 
@@ -29,13 +29,13 @@
   <Applications>
     <Application 
       Id="App"
-      StartPage="ADD START PAGE URL HERE">
+      StartPage="http://nutrition.jefking.me">
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="ADD URL HERE" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="http://nutrition.jefking.me" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements
-        DisplayName="Shell"
-        Description="Shell"
+        DisplayName="Nutrition"
+        Description="Nutrition"
         BackgroundColor="transparent"
         Square150x150Logo="images\Square150x150Logo.png"
         Square44x44Logo="images\Square44x44Logo.png">
