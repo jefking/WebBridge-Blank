@@ -29,9 +29,9 @@
   <Applications>
     <Application 
       Id="App"
-      StartPage="ADD START PAGE URL HERE">
+      StartPage="http://rjs.azurewebsites.net/">
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="ADD URL HERE" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="http://rjs.azurewebsites.net/" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements
         DisplayName="Shell"
