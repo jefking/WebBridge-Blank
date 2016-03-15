@@ -14,7 +14,7 @@
 
   <Properties>
     <DisplayName>Shell</DisplayName>
-    <PublisherDisplayName>NAME</PublisherDisplayName>
+    <PublisherDisplayName>TestPub</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
 
