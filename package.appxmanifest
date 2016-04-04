@@ -4,6 +4,9 @@
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
+  <Prerequisites>
+    <OSMinVersion>10.0.10586</OSMinVersion>
+  </Prerequisites>
 
   <Identity
     Name="f9834702-d315-4de9-8c57-b05d37a6b445"
