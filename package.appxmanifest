@@ -4,10 +4,7 @@
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
-  <Prerequisites>
-    <OSMinVersion>10.0.10586</OSMinVersion>
-  </Prerequisites>
-
+ 
   <Identity
     Name="f9834702-d315-4de9-8c57-b05d37a6b445"
     Version="1.0.0.0"
@@ -16,7 +13,7 @@
   <mp:PhoneIdentity PhoneProductId="f9834702-d315-4de9-8c57-b05d37a6b445" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Shell</DisplayName>
+    <DisplayName>Collabspaces</DisplayName>
     <PublisherDisplayName>TestPub</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -32,9 +29,9 @@
   <Applications>
     <Application 
       Id="App"
-      StartPage="ADD START PAGE URL HERE">
+      StartPage="https://www.collabspace.com">
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="ADD URL HERE" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://www.collabspace.com" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements
         DisplayName="Shell"
