@@ -14,7 +14,7 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" StartPage="https://hootsuite.com" >
+    <Application Id="App" StartPage="https://hootsuite.com/login" >
       <uap:ApplicationContentUriRules>
         <uap:Rule Match="https://hootsuite.com" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
