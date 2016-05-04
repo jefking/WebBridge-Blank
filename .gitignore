@@ -228,3 +228,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# New VS, New Projects
+*.lock.json
+.vs
