@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="ada4220b-ee7c-497d-82af-c60edf02dee0" Publisher="CN=jefkin" Version="1.0.0.0" />
+  <Identity Name="ada4220b-ee7c-497d-82af-c60edf02dee0" Publisher="CN=jefkin" Version="1.0.2.0" />
   <mp:PhoneIdentity PhoneProductId="ada4220b-ee7c-497d-82af-c60edf02dee0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Hootsuite</DisplayName>
@@ -14,9 +14,15 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" StartPage="https://hootsuite.com/login" >
+    <Application Id="App" StartPage="https://hootsuite.com/login">
       <uap:ApplicationContentUriRules>
         <uap:Rule Match="https://hootsuite.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://twitter.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://*.twitter.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://*.facebook.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://facebook.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://google.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://*.google.com" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements DisplayName="Hootsuite" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Hootsuite" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
