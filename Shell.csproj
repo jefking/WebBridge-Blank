@@ -99,6 +99,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="README.md" />
     <None Include="Shell_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +110,7 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="backgroundColor.js" />
     <Content Include="msapp-error.css" />
     <Content Include="msapp-error.html" />
     <Content Include="msapp-error.js" />
