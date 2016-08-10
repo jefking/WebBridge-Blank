@@ -17,8 +17,10 @@
     <Application Id="App" StartPage="https://hootsuite.com/login">
       <uap:ApplicationContentUriRules>
         <uap:Rule Match="https://hootsuite.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://*.hootsuite.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://twitter.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://*.twitter.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://*.*.twitter.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://*.facebook.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://facebook.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://google.com" Type="include" WindowsRuntimeAccess="all" />
