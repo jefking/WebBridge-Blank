@@ -1,2 +1,1 @@
-MainPackage=C:\Users\jefkin\Documents\GitHub\WebBridge-Blank\bin\x64\Release\Shell_1.0.2.0_x64.appx
-SymbolPackage=C:\Users\jefkin\Desktop\Shell_1.0.2.0_Test\Shell_1.0.2.0_x64.appxsym
+MainPackage=C:\Users\jefkin\Documents\GitHub\WebBridge-Blank\bin\x64\Release\Shell_1.0.4.0_x64.appx

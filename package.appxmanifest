@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="ada4220b-ee7c-497d-82af-c60edf02dee0" Publisher="CN=jefkin" Version="1.0.2.0" />
+  <Identity Name="ada4220b-ee7c-497d-82af-c60edf02dee0" Publisher="CN=jefkin" Version="1.0.4.0" />
   <mp:PhoneIdentity PhoneProductId="ada4220b-ee7c-497d-82af-c60edf02dee0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Hootsuite</DisplayName>
@@ -14,8 +14,11 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" StartPage="https://hootsuite.com/login">
+    <Application Id="App" StartPage="https://dashboard.owls.hootd.com">
       <uap:ApplicationContentUriRules>
+        <uap:Rule Match="https://dashboard.owls.hootd.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://owls.hootd.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://hootd.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://hootsuite.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://*.hootsuite.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://twitter.com" Type="include" WindowsRuntimeAccess="all" />
