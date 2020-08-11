@@ -32,9 +32,9 @@
   <Applications>
     <Application 
       Id="App"
-      StartPage="ADD START PAGE URL HERE">
+      StartPage="https://portal.foodx.technology">
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="ADD URL HERE" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://portal.foodx.technology" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements
         DisplayName="Shell"
